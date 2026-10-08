@@ -2,7 +2,7 @@
 
 Abaixo encontra-se o fluxo de execução de uma chamada de sistema (*System Call*), com a respetiva transição de modos e estados do processo:
 
-![Diagrama do Ciclo de Vida e E/S]()
+![Diagrama do Ciclo de Vida e E/S](Text%20Container20%Ecosystem-2026-10-08-191035.png)
 ---
 
 ### Descrição dos Módulos e Etapas do Diagrama
