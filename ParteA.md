@@ -16,3 +16,4 @@ Modo Usuário x Modo Kernel
 3 - Kernel: O kernel salva o contexto do processo, valida os argumentos e as permissões, e passa a requisição ao sistema de arquivos e ao driver do disco
 4 - Kernel: Como o disco é lento, o processo passa de Executando -> Bloqueado(Espera). O escalonador escolhe outro processo para usar a CPU
 5 - Kernel: Quando o disco termina, gera uma interrupção. O tratador acorda o processo: Bloqueado -> Pronto
+6 - Kernel -> Usuário Quando o escalonador o escolhe novamente, o kernel retorna ao modo usuário e devolve os dados
